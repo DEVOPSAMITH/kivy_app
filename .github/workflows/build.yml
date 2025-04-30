@@ -20,7 +20,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install kivy buildozer setuotools cython virtualenv python-for-android
+        pip install kivy buildozer setuptools cython virtualenv python-for-android
         
         sudo apt-get update
         sudo apt-get install -y \
